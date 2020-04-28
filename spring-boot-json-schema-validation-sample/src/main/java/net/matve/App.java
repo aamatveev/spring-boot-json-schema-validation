@@ -66,13 +66,13 @@ public class App extends SpringBootServletInitializer {
         };
     }
 
-    /**
-     * create bean BeanPostProcessor
-     * @return
-     */
-    // TODO must move to starter
-    @Bean
-    static BeanPostProcessor jsonRequestBodyPostProcessorBeanPostProcessor() {
-        return new JsonRequestBodyPostProcessorBeanPostProcessor();
-    }
+//    /**
+//     * create bean BeanPostProcessor
+//     * @return
+//     */
+//    // TODO must move to starter
+//    @Bean
+//    static BeanPostProcessor jsonRequestBodyPostProcessorBeanPostProcessor() {
+//        return new JsonRequestBodyPostProcessorBeanPostProcessor();
+//    }
 }

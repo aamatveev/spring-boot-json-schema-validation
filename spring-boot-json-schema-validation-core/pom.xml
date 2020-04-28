@@ -14,7 +14,7 @@
     <groupId>net.matve</groupId>
     <artifactId>spring-boot-json-schema-validation-core</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <java.version>1.8</java.version>
