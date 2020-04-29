@@ -14,8 +14,7 @@ public class JsonSchemaValidationAutoconfiguration {
      * @return
      */
     @Bean
-    @ConditionalOnMissingBean
-    static BeanPostProcessor jsonRequestBodyPostProcessorBeanPostProcessor() {
+    public BeanPostProcessor jsonRequestBodyPostProcessorBeanPostProcessor() {
         return new JsonRequestBodyPostProcessorBeanPostProcessor();
     }
 }

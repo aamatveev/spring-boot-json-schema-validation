@@ -4,9 +4,6 @@ import net.matve.model.Config;
 import net.matve.model.PaymentMethod;
 import net.matve.repo.ConfigRepository;
 import net.matve.repo.PaymentMethodRepository;
-import net.matve.json.schema.JsonRequestBodyPostProcessorBeanPostProcessor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +11,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 
-import javax.annotation.PostConstruct;
 import java.math.BigDecimal;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -65,14 +61,4 @@ public class App extends SpringBootServletInitializer {
             );
         };
     }
-
-//    /**
-//     * create bean BeanPostProcessor
-//     * @return
-//     */
-//    // TODO must move to starter
-//    @Bean
-//    static BeanPostProcessor jsonRequestBodyPostProcessorBeanPostProcessor() {
-//        return new JsonRequestBodyPostProcessorBeanPostProcessor();
-//    }
 }

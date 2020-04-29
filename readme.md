@@ -1,11 +1,12 @@
+spring-boot-json-schema-validation-core
+the module provides classes for implementing JSON validation using json schema
 
-used source code from https://github.com/luismoramedina/spring-jsonschema-validation
+spring-boot-json-schema-validation-starter
+the module implements a starter for enabling json validation using the json schema
 
+spring-boot-json-schema-validation-sample
+the module is an example of using json validation by json schema
 
-https://www.sql.ru/forum/1307631/jsr-bean-validation-vs-json-schema-validation
+used source code https://github.com/luismoramedina/spring-jsonschema-validation
 
-httpServletRequest.getReader().lines().collect(Collectors.joining(System.lineSeparator()))
-webRequest.getNativeRequest(HttpServletRequest.class).getReader().lines().collect(Collectors.joining(System.lineSeparator()))
-
-
-https://vk.com/@15787353-spring-json-schema
+good article https://vk.com/@15787353-spring-json-schema
