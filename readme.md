@@ -1,3 +1,6 @@
+spring-boot-json-schema-validation
+=====================
+
 Hi, the goal of this project is to learn how to check json using json schema.
 ---------------------
 here are 3 modules:
