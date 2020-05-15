@@ -1,7 +1,7 @@
 Hi, the goal of this project is to learn how to check json using json schema.
 ---------------------
 here are 3 modules:
----------------------
+
 1. ### spring-boot-json-schema-validation-core
 this module provides classes for implementing JSON validation using json schema
 
