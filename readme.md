@@ -1,6 +1,8 @@
 spring-boot-json-schema-validation
 =====================
 
+[on GitHub](https://github.com/aamatveev/spring-boot-json-schema-validation)
+
 Hi, the goal of this project is to learn how to check json using json schema.
 ---------------------
 here are 3 modules:
@@ -18,7 +20,3 @@ where I got a lot of useful information thank you very much:
 -----------
 1. [used source code](https://github.com/luismoramedina/spring-jsonschema-validation)
 2. [good article](https://vk.com/@15787353-spring-json-schema)
-
-Project
------------
-[on GitHub](https://github.com/aamatveev/spring-boot-json-schema-validation)
