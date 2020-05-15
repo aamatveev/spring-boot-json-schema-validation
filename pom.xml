@@ -9,16 +9,11 @@
         <module>spring-boot-json-schema-validation-sample</module>
     </modules>
 
-    <groupId>net.matve</groupId>
+    <groupId>xyz.matve</groupId>
     <artifactId>spring-boot-json-schema-validation</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>spring-boot-json-schema-validation</name>
     <packaging>pom</packaging>
-
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-
 
     <repositories>
         <repository>

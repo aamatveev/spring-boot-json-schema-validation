@@ -1,1 +1,4 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=net.matve.JsonSchemaValidationAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+xyz.matve.json.JsonSchemaValidationAutoConfiguration,\
+xyz.matve.json.InputStreamFilter,\
+xyz.matve.json.CustomGlobalExceptionHandler
