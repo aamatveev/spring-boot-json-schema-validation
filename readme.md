@@ -1,11 +1,13 @@
-# spring-boot-json-schema-validation-core
-the module provides classes for implementing JSON validation using json schema
 
-# spring-boot-json-schema-validation-starter
-the module implements a starter for enabling json validation using the json schema
+## Modules:
+### spring-boot-json-schema-validation-core
+this module provides classes for implementing JSON validation using json schema
 
-# spring-boot-json-schema-validation-sample
-the module is an example of using json validation by json schema
+### spring-boot-json-schema-validation-starter
+this module implements a starter for enabling json validation using the json schema
+
+### spring-boot-json-schema-validation-sample
+this module is an example of using json validation by json schema
 
 thks:
 1. used source code https://github.com/luismoramedina/spring-jsonschema-validation
